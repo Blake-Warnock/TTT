@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html class="html2">
+<head>
+  <meta charset="UTF-8">
+  <title>Ted’s Tasty Taco Truck</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Dongle&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+    <header>
+            <img src="images/key.jpg">
+            <div class="glass">Ted’s Admin Area</div>
+            <nav>
+                <ul>
+                    <li class="admin-link"><a class="active admin"  href="admin-manage.php">Admin</a></li>
+                    <li><a class="link" href="index.php">Home</a></li>
+                    <div class="dropdown">
+                        <li class="user-link">Menu</li>
+                            <div class="dropdown-content">
+                                <a class="manage-link" href="menu.php">View Menu</a>
+                                <a href="cart.php">View Cart</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <li class="user-link">User</li>
+                                <div class="dropdown-content">
+                                    <a href="user-login.php">Log-In</a>
+                                    <a href="user-create.php">Sign-up</a>
+                                    <a class="manage-link" href="account-manage.php">Account Management</a>
+                                </div>
+                        </div>
+                </ul>
+            </nav>
+    </header>

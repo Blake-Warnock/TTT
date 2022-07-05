@@ -1,0 +1,511 @@
+.html1, .html2{
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+    overflow-x: hidden;
+}
+.html1{
+    background-color: #b1bd97;
+}
+.html2{
+    background-color: brown;
+}
+body{
+    margin: 0;
+}
+img[src="images/truck2.jpg"]{
+    width: 100%;
+    height: 30em;
+}
+.glass{
+    backdrop-filter: blur(8px);
+    box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
+    background-color: rgb(228 228 228 / 15%); 
+    border-radius: .08em;
+    font-size: 12em;
+    text-align: center;
+    width: 70%;
+    float: left;
+    position: absolute;
+    top: 13%;
+    left: 15%;
+    color: white;
+}
+.border-line{
+    border: cornflowerblue solid 1px;
+    width: 80%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+.container, .container2{
+    background-color: white;
+    width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+    border: cornflowerblue solid 2px;
+}
+nav{
+    position: absolute;
+    top: -3%;
+    font-size: 2.2em;
+    display: block;
+    width: 100%;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: #7c836d;
+}
+a:hover{
+    color: white;
+    transition-duration: 1s;
+}
+ul li{
+    margin-right: 3%;
+    float: left;
+}
+.admin-link{
+    margin-right: 65%;
+}
+.dropdown{
+    margin-right: 3%;
+    position: relative;
+  display: inline-block;
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+    transition-duration: 1s;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 3em;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    border-radius: .2em;
+    z-index: 1;
+    padding: 1%;
+}
+.dropdown-content a{
+    display: block;
+}
+.dropdown-content a:hover {
+    border-radius: .2em;
+    background-color: #ddd;
+    color: #7c836d;
+    transition-duration: 1s;
+}
+.user-link{
+    color: #7c836d;
+}
+.active{
+    color: white;
+}
+.lTaco{
+    width: 20%;
+    float: left;
+    margin-right: -3%;
+}
+.rTaco{
+    width: 20%;
+    float: right;
+}
+.info h1, .info h2{
+    text-align: center;
+    font-size: 2.5em;
+}
+.info h2{
+    margin-top: -2%;
+    margin-bottom: -2%;
+    font-size: 6em;
+    color: #7c836d;
+}
+img[src="images/ted.jpg"]{
+    width: 30%;
+    margin-left: 7%;
+    margin-top: 2%;
+}
+.info p{
+    text-align: center;
+    font-size: 2em;
+}
+.mapouter{
+    position:relative;
+    text-align:right;
+    height:90%;
+    width:90%;
+    left: 60%;
+    top: -33em;
+}
+.gmap_canvas{
+    overflow:hidden;
+    background:none!important;
+    height:500px;
+    width:600px;
+}
+iframe{
+    width :100%;
+    height :100%;
+}
+.border-line.map{
+    margin-top: -15%;
+}
+footer a{
+    font-size: 2em;
+    margin: 2%;
+}
+footer p{
+    font-size: 2em;
+    color: #7c836d;
+    margin-bottom: -.25%;
+    margin-left: 1%;
+}
+.footer-p{
+    margin-bottom: -3.5%;
+}
+.logout.footer2{
+    margin-bottom: 2%;
+    left: 90%;
+}
+footer a:hover{
+    color: black;
+    transition-duration: 1s;
+}
+.manage-link{
+    white-space: nowrap;
+}
+
+
+
+.nav-bar ul{
+    background-color: rgb(181, 202, 240);
+    border: white solid 2px;
+    position: absolute;
+    top: 8%;
+    left: 2%;
+    width: 24%;
+    height: 1.5em;
+}
+.nav-bar li{
+    margin-right: 9%;
+    font-size: 1.25em;
+}
+.container2{
+    margin-top: 15%;
+}
+.nav-bar h1{
+    text-align: center;
+    background-color: rgb(181, 202, 240);
+    border: white solid 2px;
+    width: fit-content;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.user-taco{
+    float: right;
+    width: 10%;
+    right: 2%;
+    top: 0%;
+    position: absolute;
+}
+.create1{
+    margin-top: 3%;
+    border: cornflowerblue 2px solid;
+    background-color: #b1bd97;
+    padding: 1%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 2.5em;
+    width: 30%;
+    box-shadow: 10px 10px 8px 10px #888888;
+    margin-bottom: 3%;
+}
+.create1.additional{
+    margin-top: -15%;
+}
+.create1 input{
+    font-size: .75em;
+}
+.create1 h1, 
+.createsub h1{
+   margin-bottom: -.25%;
+   margin-top: -.25%;
+}
+.create1 p{
+    font-size: .75em;
+}
+.btn1,
+.btn2,
+.btn3,
+.btn6,
+.btnEmpty{
+    width: 20%;
+    padding: -1%;
+    font-size: .75em;
+    background-color: white;
+    font-family: 'Dongle', sans-serif;
+}
+.btn1:hover,
+.btn2:hover,
+.btn3:hover,
+.btn6:hover,
+.btnEmpty:hover,
+.logout:hover{
+    cursor: pointer;
+    background-color: #b1bd97;
+    box-shadow: 3px 3px 8px 3px #888888;
+    transition-duration: 1s;
+}
+.btn6{
+    width: 30%;
+}
+.btnEmpty{
+    width: 100%;
+    white-space: nowrap;
+}
+.logout{
+    background-color: cornflowerblue;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1em;
+    position: relative;
+    left: 80%;
+    margin-top: 1%;
+    width: fit-content;
+}
+.logout.red{
+    background-color: brown;
+    margin-bottom: 1%;
+}
+.logout.red:hover{
+    box-shadow: unset;
+}
+.logout-link{
+    color: black;
+}
+.logout a:hover{
+    color: white;
+}
+.createsub{
+    width: 10%;
+}
+.loginSub{
+    width: 20%;
+}
+.createsub,
+.loginSub{
+    text-align: center;
+    margin-top: 4%;
+    margin-left: 4%;
+    border: cornflowerblue 2px solid;padding: 1%;
+    background-color: #b1bd97;
+    box-shadow: 3px 3px 8px 3px #888888;
+    font-size: 1.5em;
+    margin-bottom: 3%;
+}
+.signUp{
+    color: white;
+    font-size: 1em;
+}
+.signUp:hover{
+    color: black;
+    transition-duration: 1s;
+}
+
+
+img[src="images/key.jpg"]{
+    width: 100%;
+    height: 30em;
+}
+.admin-bottom{
+    color: brown;
+    display: block;
+    position: absolute;
+    margin-bottom: 1%;
+}
+.admin-bottom:hover{
+    color: white;
+}
+.container.admin{
+    background-color: #0E0E0C;
+}
+.info.admin{
+    color:white;
+}
+.create1.admin{
+    background-color: brown;
+    box-shadow: unset;
+}
+.btn1.admin:hover{
+    background-color: brown;
+}
+
+.menu-table{
+    margin-top: 10%;
+    font-size: 2em;
+    width: 100%;
+    border-collapse: collapse;
+}
+.menu-table th{
+    padding-top: 3%;
+    border-top: cornflowerblue 2px solid;
+    width: 30%;
+    white-space: nowrap;
+    position: relative;
+    left: -10%;
+}
+.menu-table td{
+    padding-bottom: 3%;
+    padding-top: 3%;
+    text-align: center;
+    border-bottom: cornflowerblue 2px solid;
+    position: relative;
+    top: 3%;
+    left: -10%;
+}
+.item-img{
+    margin-top: 10%;
+    margin-left: 30%;
+    width: 120%;
+}
+#table-second-row{
+    position: relative;
+    left: 10%;
+}
+#table-second-row input{
+    font-size: .75em;
+}
+#total{
+    position: relative;
+    left: -10%;
+}
+.menu-title{
+    margin-left: 20%;
+    font-size: 4em;
+    margin-top: 10%;
+    margin-bottom: -10%;
+}
+#remove:hover{
+    color: black;
+}
+#menu-page{
+    margin-top: 3%;
+}
+.cart-info{
+    text-align: center;
+    font-size: 3em;
+}
+.cart-info h1{
+    font-size: 1em;
+}
+.cart-info input{
+    font-size: .75em;
+}
+.info-user{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 65%;
+}
+.info-second{
+    float: left;
+}
+
+
+.order-table{
+    margin-top: 10%;
+    font-size: 2.5em;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+.order-table td{
+    border-bottom: cornflowerblue 2px solid;
+}
+.order-table th, .order-table td{
+    border-right: cornflowerblue 2px solid;
+    border-left: cornflowerblue 2px solid;
+    padding: 3%;
+}
+.order-table th{
+    border-top: cornflowerblue 2px solid;
+}
+#table-item{
+    border-right: unset;
+}
+#table-item2{
+    border-right: unset;
+    border-left: unset;
+    white-space: nowrap;
+}
+#table-item3{
+    border-left: unset;
+}
+#table-header{
+    border-bottom: cornflowerblue 2px solid;
+}
+#table-empty{
+    background-color: cornflowerblue;
+}
+.admin-table{
+    margin-top: 15%;
+    font-size: 2.5em;
+    text-align: center;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+    border: brown 2px solid;
+}
+.admin-table th{
+    border-bottom: brown 2px solid;
+}
+.admin-table td{
+    border: brown 2px solid;
+    padding: 1%;
+}
+.admin-table-header{
+    font-size: 8em;
+    text-align: center;
+    margin-bottom: -10%;
+}
+.admin-item1{
+    width: 10%;
+}
+.admin-item2{
+    width: 20%;
+}
+.admin-item4{
+    width: 30%;
+}
+.admin-btn1{
+    background-color: brown;
+    font-size: 1em;
+    font-family: 'Dongle', sans-serif;
+}
+.admin-btn1:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px 8px 3px #252525;
+    color: white;
+    transition-duration: 1s;
+}
+.admin-table input{
+    font-size: .5em;
+}
+.admin-table.update{
+   width: 100%;
+}
+textarea{
+    width: 80%;
+    height: 9em;
+}
+.logout-link.admin.top{
+    font-size: 2em;
+}
